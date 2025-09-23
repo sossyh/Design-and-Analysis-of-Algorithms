@@ -21,10 +21,10 @@ Project_One/
 ### How to Navigate to the Folder
 
 1. Open your terminal or command prompt.
-2. Navigate to the project folder:
+2. Navigate to the project folder.
+3. Run the unit tests using Python:
 
 ```bash
 cd Project_One
-
 
 python -m unittest Asymptotic_Analysis_Test.py
