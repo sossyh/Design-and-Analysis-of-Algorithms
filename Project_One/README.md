@@ -6,9 +6,13 @@ Project One implements a function `compute_sum` in `Asymptotic_Analysis.py` that
 **Folder Structure:**
 
 Project_One/
+
 │
+
 ├── Asymptotic_Analysis.py
+
 ├── Asymptotic_Analysis_Test.py
+
 └── README.md
 
 
