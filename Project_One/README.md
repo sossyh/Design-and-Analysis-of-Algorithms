@@ -18,13 +18,34 @@ Project_One/
 
 ---
 
-### How to Navigate to the Folder
 
-1. Open your terminal or command prompt.
-2. Navigate to the project folder.
-3. Run the unit tests using Python:
+
+### 🧭 How to run the project
+
+1. **Clone the project:**
 
 ```bash
-cd Project_One
+git clone https://github.com/sossyh/Design-and-Analysis-of-Algorithms.git
+````
 
+2. **Open the project in VS Code (optional but recommended):**
+
+```bash
+code Design-and-Analysis-of-Algorithms
+```
+
+3. **Open your terminal** (you can use the built-in terminal in VS Code).
+
+4. **Navigate to the project folder:**
+
+```bash
+cd Design-and-Analysis-of-Algorithms/Project_One
+```
+
+5. **Run the unit tests using Python:**
+
+```bash
 python -m unittest Asymptotic_Analysis_Test.py
+```
+
+

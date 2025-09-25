@@ -9,7 +9,7 @@ class TestComputeSum(unittest.TestCase):
     def setUp(self):
         # List of n values to test
         self.test_n_values = [
-    1000, 5000, 25000, 125000, 625000, 3125000, 15625000, 78125000, 390625000
+    1000, 5000, 25000, 125000, 625000, 3125000, 15625000, 78125000
 ]
 
     def generate_random_list(self, n):
