@@ -39,7 +39,7 @@ code Design-and-Analysis-of-Algorithms
 4. **Navigate to the project folder:**
 
 ```bash
-cd Design-and-Analysis-of-Algorithms/Project_One
+cd Project_One
 ```
 
 5. **Run the unit tests using Python:**
