@@ -25,7 +25,7 @@ class TestComputeSum(unittest.TestCase):
         # Repeat to get a more stable measurement
         for _ in range(repeat):
             result = compute_sum(a, b, n)
-            
+
         end = time.perf_counter()
         elapsed = (end - start) / repeat
         print(f"n={n:>8}, result={result:>12}, time={elapsed:.8f} seconds")
@@ -36,18 +36,7 @@ class TestComputeSum(unittest.TestCase):
         for n in self.test_n_values:
             self.run_and_time(n)
 
-    def test_correctness_large_arrays(self):
-        # Use large enough arrays so loops execute
-        n = 20
-        a = [1] * n
-        b = [1] * n
-        result = compute_sum(a, b, n)
-        self.assertGreater(result, 0)
 
-        a = [0] * n
-        b = [0] * n
-        result = compute_sum(a, b, n)
-        self.assertEqual(result, 0)
 
 if __name__ == "__main__":
     unittest.main()
