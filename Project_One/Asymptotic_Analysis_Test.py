@@ -15,12 +15,17 @@ class TestComputeSum(unittest.TestCase):
     def generate_random_list(self, n):
         return [random.randint(1, 100) for _ in range(n)]
 
+    # Function to run compute_sum and measure time
     def run_and_time(self, n, repeat=1000):
         a = self.generate_random_list(n)
         b = self.generate_random_list(n)
+          
         start = time.perf_counter()
+
+        # Repeat to get a more stable measurement
         for _ in range(repeat):
             result = compute_sum(a, b, n)
+            
         end = time.perf_counter()
         elapsed = (end - start) / repeat
         print(f"n={n:>8}, result={result:>12}, time={elapsed:.8f} seconds")
